@@ -1,0 +1,8 @@
+doctype html
+html
+  head
+    = partial 'layouts/meta_tags'
+    = stylesheet_link_tag 'embed' ,:data => {'embed' => '', 'inline' => ''}
+    = stylesheet_link_tag 'inline' ,:data => {'inline' => ''}
+  body class="homepage"
+    = yield

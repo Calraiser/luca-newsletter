@@ -1,0 +1,50 @@
+.e-block {
+  .content {
+    padding: 15px 30px;
+  }
+  &:not(.product){
+    h2 {
+      margin-left: 50px;
+    }
+  }
+  &.custom-purple {
+    background: #854d9f;
+    height: 147px;
+    width: 828px;
+  }
+
+  &.product {
+    background: image-url('p-product.svg') no-repeat;
+    height: 380px;
+    width: 827px;
+  }
+
+  &.repetition {
+    background: image-url('r-repetition.svg') no-repeat;
+    width: 519px;
+    height: 305px;
+  }
+
+  &.ux {
+    background: image-url('u-ux.svg') no-repeat;
+    height: 305px;
+    width: 519px;
+  }
+
+  &.design {
+    background: image-url('design.svg') no-repeat;
+    height: 305px;
+    width: 288px;
+  }
+
+  &.team {
+    background: image-url('our-team.svg') no-repeat;
+    height: 305px;
+    width: 288px;
+  }
+
+  &.footer {
+    width: 828px;
+    background: #7FD6D6;
+  }
+}

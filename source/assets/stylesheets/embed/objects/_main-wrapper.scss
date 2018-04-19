@@ -1,0 +1,17 @@
+/* =============================================================================
+   MAIN-WRAPPER (embed/objects/_main-wrapper.scss)
+   ========================================================================== */
+
+/* Media queries
+   ========================================================================== */
+
+@media (max-width: $breakpoint-mobile) {
+	/**
+	 * Updating spacing around main wrapper on smaller screens.
+	 */
+
+	.o-main-wrapper__inner {
+		padding-top: $page-vertical-spacing-mobile !important;
+		padding-bottom: $page-vertical-spacing-mobile !important;
+	}
+}

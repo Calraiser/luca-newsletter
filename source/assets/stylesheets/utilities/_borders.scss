@@ -1,0 +1,34 @@
+/* =============================================================================
+   BORDERS (utilties/_borders.scss)
+   ========================================================================== */
+
+/* Border width
+   ========================================================================== */
+
+/**
+ * Utilities for controlling the width an element's borders.
+ */
+
+@each $border-side-key, $border-side-value in $border-sides {
+	@each $size-key, $size-value in $border-sizes {
+		.u-border-#{$border-side-value}-#{$size-key} {
+			border-#{$border-side-key}-width: $size-value;
+			border-#{$border-side-key}-style: solid;
+		}
+	}
+}
+
+
+
+/* Border color
+   ========================================================================== */
+
+/**
+ * Utilities for controlling the color of an element's borders.
+ */
+
+@each $color-key, $color-value in $colors {
+	.u-border-#{$color-key} {
+		border-color: $color-value;
+	}
+}

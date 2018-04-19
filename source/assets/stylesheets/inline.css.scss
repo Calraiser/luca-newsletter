@@ -1,0 +1,61 @@
+/* =============================================================================
+   INLINE (inline.scss)
+   ========================================================================== */
+
+/**
+ * This CSS code should be inlined.
+ */
+
+/* Settings
+   ========================================================================== */
+
+@import 'settings/core';
+
+
+
+/* Generic
+   ========================================================================== */
+
+@import 'generic/reset';
+
+
+
+/* Elements
+   ========================================================================== */
+
+@import 'elements/headings';
+@import 'elements/links';
+@import 'elements/lists';
+@import 'elements/page';
+@import 'elements/table';
+@import 'elements/blocks';
+
+
+
+/* Objects
+   ========================================================================== */
+
+@import 'objects/grid';
+@import 'objects/list-reset';
+@import 'objects/main-wrapper';
+@import 'objects/preheader';
+
+
+
+/* Components
+   ========================================================================== */
+@import 'components/buttons';
+@import 'components/hero';
+
+
+
+/* Utilities
+   ========================================================================== */
+
+@import 'utilities/backgrounds';
+@import 'utilities/borders';
+@import 'utilities/display';
+@import 'utilities/headings';
+@import 'utilities/images';
+@import 'utilities/spacing';
+@import 'utilities/typography';

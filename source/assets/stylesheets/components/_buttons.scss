@@ -1,0 +1,77 @@
+/* =============================================================================
+   BUTTONS (components/_buttons.scss)
+   ========================================================================== */
+
+/* Settings
+   ========================================================================== */
+
+$button-default-background-color: #bbbbbb !default;
+$button-default-text-color: $color-white !default;
+$button-colors: (
+	'dark': $color-dark,
+	'red': $color-red,
+	'green': $color-green,
+	'blue': $color-blue,
+) !default;
+
+
+
+/* General
+   ========================================================================== */
+
+.c-btn {
+	td {
+		text-align: center;
+		line-height: 100%;
+		background-color: $button-default-background-color;
+		padding-top: 15px;
+		padding-right: 35px;
+		padding-bottom: 15px;
+		padding-left: 35px;
+	}
+
+	a {
+		color: $button-default-text-color;
+		text-decoration: none;
+	}
+}
+
+
+
+/* Variations
+   ========================================================================== */
+
+/**
+ * Button that populates full width of its parent.
+ */
+
+.c-btn--full-width {
+	width: 100%;
+
+	td {
+		text-align: center;
+	}
+}
+
+/**
+ * Button with rounded edges.
+ */
+
+.c-btn--rounded {
+	td {
+		border-radius: 50px;
+	}
+}
+
+/**
+ * Color variations. To add new color variation you have to add new value in
+ * `$button-colors` map on top of the file.
+ */
+
+@each $color-key, $color-value in $button-colors {
+	.c-btn--#{$color-key} {
+		td {
+			background-color: $color-value;
+		}
+	}
+}

@@ -1,0 +1,53 @@
+/* =============================================================================
+   SPACING (embed/utilities/_spacing.scss)
+   ========================================================================== */
+
+/* Media queries
+   ========================================================================== */
+
+@media (max-width: $breakpoint-mobile) {
+	/**
+	 * Utilities for controlling an element's padding.
+	 */
+
+	@each $spacer-key, $spacer-value in $spacers {
+		@if $spacer-key != 'auto' {
+			.u-p-#{$spacer-key}\@sm {
+				padding-top: $spacer-value !important;
+				padding-right: $spacer-value !important;
+				padding-bottom: $spacer-value !important;
+				padding-left: $spacer-value !important;
+			}
+		}
+
+		@each $spacing-side-key, $spacing-side-value in $spacing-sides {
+			@if $spacer-key != 'auto' {
+				@if $spacing-side-key == 'horizontal' {
+					.u-p#{$spacing-side-value}-#{$spacer-key}\@sm {
+						padding-right: $spacer-value !important;
+						padding-left: $spacer-value !important;
+					}
+				} @else {
+					.u-p#{$spacing-side-value}-#{$spacer-key}\@sm {
+						padding-#{$spacing-side-key}: $spacer-value !important;
+					}
+				}
+			}
+		}
+	}
+
+	/**
+	 * Utilities for controlling an element's margin.
+	 */
+
+	@each $spacing-side-key, $spacing-side-value in $spacing-sides {
+		@each $spacer-key, $spacer-value in $spacers {
+			@if $spacing-side-key == 'horizontal' {
+				.u-m#{$spacing-side-value}-#{$spacer-key}\@sm {
+					margin-right: $spacer-value !important;
+					margin-left: $spacer-value !important;
+				}
+			}
+		}
+	}
+}

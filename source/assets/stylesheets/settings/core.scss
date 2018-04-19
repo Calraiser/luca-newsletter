@@ -1,0 +1,151 @@
+/* =============================================================================
+   CORE (settings/_core.scss)
+   ========================================================================== */
+
+/* Colors
+   ========================================================================== */
+
+$color-white: #ffffff !default;
+$color-gray-100: #f1f1f1 !default;
+$color-gray-200: #a5a5a5 !default;
+$color-black: #000000 !default;
+$color-dark: #2c3e50 !default;
+$color-red: #e74c3c !default;
+$color-yellow: #f1c40f !default;
+$color-green: #2ecc71 !default;
+$color-blue: #2b7fff !default;
+$color-dark-blue: #263950 !default;
+
+$colors: (
+	'white': $color-white,
+	'gray-100': $color-gray-100,
+	'gray-200': $color-gray-200,
+	'black': $color-black,
+	'dark': $color-dark,
+	'red': $color-red,
+	'yellow': $color-yellow,
+	'green': $color-green,
+	'blue': $color-blue,
+	'dark-blue': $color-dark-blue,
+	'transparent': transparent,
+) !default;
+
+
+
+/* Page
+   ========================================================================== */
+
+$page-background-color: #f1f1f1 !default;
+$page-vertical-spacing: 40px !default;
+$page-vertical-spacing-mobile: 20px !default;
+
+
+
+/* Typography
+   ========================================================================== */
+
+/**
+ * Base
+ */
+
+$font-size-base: 16px !default;
+$line-height-base: 23px !default;
+$font-family-base: -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif !default;
+
+/**
+ * Headings
+ */
+
+// Font sizes
+$font-size-h1: 50px !default;
+$font-size-h2: 18px !default;
+$font-size-h3: 28px !default;
+$font-size-h4: 21px !default;
+$font-size-h5: 16px !default;
+$font-size-h6: 12px !default;
+
+// Line heights
+$line-height-h1: 58px !default;
+$line-height-h2: 46px !default;
+$line-height-h3: 36px !default;
+$line-height-h4: 29px !default;
+$line-height-h5: 23px !default;
+$line-height-h6: 20px !default;
+
+// Colors
+$font-color-h2: #fff;
+
+/**
+ * Links
+ */
+
+$link-color: $color-blue !default;
+
+
+
+/* Spacing
+   ========================================================================== */
+
+/**
+ * Control the default spacing of most elements by modifying these variables.
+ * You can add more entries to the `$spacers` map, should you need more
+ * variation.
+ */
+
+$spacers: (
+	'auto': auto,
+	'0': 0,
+	'1': 5px,
+	'2': 10px,
+	'3': 15px,
+	'4': 20px,
+) !default;
+
+$spacing-sides: (
+	'top': t,
+	'right': r,
+	'bottom': b,
+	'left': l,
+	'horizontal': x,
+	'vertical': y,
+) !default;
+
+
+
+/* Borders
+   ========================================================================== */
+
+$border-sizes: (
+	'0': 0,
+	'1': 1px,
+	'2': 2px,
+) !default;
+
+$border-sides: (
+	'top': t,
+	'right': r,
+	'bottom': b,
+	'left': l,
+) !default;
+
+
+
+/* Grid
+   ========================================================================== */
+
+$grid-container-width: 600px !default;
+$grid-columns: 12 !default;
+$grid-column-width: $grid-container-width / $grid-columns !default;
+$grid-gutter: 20px !default;
+
+
+
+/* Breakpoints
+   ========================================================================== */
+
+/**
+ * Define the minimum dimension at which your layout will change, adapting to
+ * different screen sizes, for use in media queries.
+ */
+
+$breakpoint-mobile: $grid-container-width + ($grid-gutter * 2) !default;

@@ -1,0 +1,24 @@
+/* =============================================================================
+   HERO (embed/components/_hero.scss)
+   ========================================================================== */
+
+/* Media queries
+   ========================================================================== */
+
+@media (max-width: $breakpoint-mobile) {
+	.c-hero {
+		height: auto !important;
+		padding-top: $grid-gutter;
+		padding-right: $grid-gutter;
+		padding-bottom: $grid-gutter;
+		padding-left: $grid-gutter;
+	}
+
+	.c-hero__inner {
+		height: auto !important;
+
+		> table {
+			width: 100% !important;
+		}
+	}
+}

@@ -1,0 +1,25 @@
+/* =============================================================================
+   GRID (embed/objects/_grid.scss)
+   ========================================================================== */
+
+/* Media queries
+   ========================================================================== */
+
+@media (max-width: $breakpoint-mobile) {
+	.o-container {
+		width: 100% !important;
+
+		td {
+			width: 100% !important;
+			display: block;
+			box-sizing: border-box;
+		}
+	}
+
+	@for $i from 1 through $grid-columns {
+		.o-column-#{$i} {
+			padding-left: $grid-gutter !important;
+			padding-right: $grid-gutter !important;
+		}
+	}
+}

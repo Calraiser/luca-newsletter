@@ -1,0 +1,12 @@
+/* =============================================================================
+   LINKS (elements/_links.scss)
+   ========================================================================== */
+
+/**
+ * Overriding default link styles to make them prettier.
+ */
+
+a {
+	color: $link-color;
+	text-decoration: none;
+}

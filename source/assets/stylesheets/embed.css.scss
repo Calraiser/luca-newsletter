@@ -1,0 +1,43 @@
+/* =============================================================================
+   EMBED (embed.scss)
+   ========================================================================== */
+
+/**
+ * This CSS should be embedded in the `<head>` of your email template.
+ */
+
+/* Settings
+   ========================================================================== */
+
+@import 'settings/core';
+
+
+
+/* Generic
+   ========================================================================== */
+
+@import 'embed/generic/reset';
+
+
+
+/* Objects
+   ========================================================================== */
+
+@import 'embed/objects/grid';
+@import 'embed/objects/main-wrapper';
+
+
+
+/* Components
+   ========================================================================== */
+
+@import 'embed/components/hero';
+
+
+
+/* Utilities
+   ========================================================================== */
+
+@import 'embed/utilities/display';
+@import 'embed/utilities/spacing';
+@import 'embed/utilities/typography';

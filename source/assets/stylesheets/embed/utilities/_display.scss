@@ -1,0 +1,32 @@
+/* =============================================================================
+   DISPLAY (embed/utilities/_display.scss)
+   ========================================================================== */
+
+/**
+ * Utilities for controlling the display box type of an element.
+ */
+
+/* Media queries
+   ========================================================================== */
+
+@media (max-width: $breakpoint-mobile) {
+	.u-block\@sm {
+		display: block !important;
+	}
+
+	.u-table\@sm {
+		display: table !important;
+	}
+
+	.u-table-row\@sm {
+		display: table-row !important;
+	}
+
+	.u-table-cell\@sm {
+		display: table-cell !important;
+	}
+
+	.u-hidden\@sm {
+		display: none !important;
+	}
+}

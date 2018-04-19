@@ -1,0 +1,30 @@
+/* =============================================================================
+   MAIN-WRAPPER (objects/_main-wrapper.scss)
+   ========================================================================== */
+
+/**
+ * The `.o-main-wrapper` object helps reset some email client specific
+ * formatting while setting the canvas for you to work in.
+ */
+
+.o-main-wrapper {
+	margin: 0;
+	padding: 0;
+	width: 100% !important;
+	height: 100% !important;
+	line-height: 100% !important;
+	background: $page-background-color;
+}
+
+/**
+ * Adding spacing around main wrapper (optional).
+ */
+
+.o-main-wrapper__inner {
+	padding-top: $page-vertical-spacing;
+	padding-bottom: $page-vertical-spacing;
+}
+
+.header {
+	width: 827px;
+}

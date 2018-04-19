@@ -1,0 +1,19 @@
+
+<svg width="580px" height="305px" viewBox="0 0 580 305" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="26.4480065%" y1="0%" x2="148.226356%" y2="23.7706163%" id="linearGradient-1">
+            <stop stop-color="#238CAE" offset="0%"></stop>
+            <stop stop-color="#FF22FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="960---6-columns-copy" transform="translate(-34.000000, -817.000000)">
+            <g id="Rectangle-Copy" transform="translate(34.000000, 817.000000)">
+                <rect fill="url(#linearGradient-1)" style="mix-blend-mode: overlay;" x="0" y="0" width="580" height="305"></rect>
+                <path d="M30,28 L47.19,28 C51.2700204,28 54.6299868,28.4199958 57.27,29.26 C59.9100132,30.1000042 62.0099922,31.419991 63.57,33.22 C66.4500144,36.5200165 67.89,40.8999727 67.89,46.36 C67.89,55.8400474 63.9600393,61.779988 56.1,64.18 L69.24,89.56 L63.39,89.56 L51.06,65.17 C49.859994,65.2900006 48.5400072,65.35 47.1,65.35 L35.4,65.35 L35.4,89.56 L30,89.56 L30,28 Z M47.46,60.58 C52.6200258,60.58 56.3099889,59.5000108 58.53,57.34 C61.0500126,54.8799877 62.31,51.1900246 62.31,46.27 C62.31,43.9899886 62.0550026,42.0550079 61.545,40.465 C61.0349974,38.874992 60.2400054,37.480006 59.16,36.28 C58.0799946,35.079994 56.5500099,34.180003 54.57,33.58 C52.5899901,32.979997 50.0100159,32.68 46.83,32.68 L35.4,32.68 L35.4,60.58 L47.46,60.58 Z" id="r" fill="#FFFFFF" style="mix-blend-mode: overlay;"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,27 @@
+/* =============================================================================
+   DISPLAY (utilities/_display.scss)
+   ========================================================================== */
+
+/**
+ * Utilities for controlling the display box type of an element.
+ */
+
+.u-block {
+	display: block;
+}
+
+.u-table {
+	display: table;
+}
+
+.u-table-row {
+	display: table-row;
+}
+
+.u-table-cell {
+	display: table-cell;
+}
+
+.u-hidden {
+	display: none;
+}

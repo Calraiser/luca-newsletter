@@ -1,0 +1,16 @@
+/* =============================================================================
+   LIST-RESET (objects/_list-reset.scss)
+   ========================================================================== */
+
+/**
+ * 1. Adding padding on list wrapper when used for Outlook fix.
+ * 2. Removing padding on lists inside list wrapper when used for Outlook fix.
+ */
+
+.o-list-reset {
+	padding-left: 25px; /* 1 */
+
+	ul, ol {
+		padding: 0; /* 2 */
+	}
+}

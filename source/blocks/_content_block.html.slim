@@ -1,0 +1,14 @@
+
+- content ||= ['product, repetition, team, ux, design, normal, custom-purple']
+- title   ||= false
+- text    ||= false
+
+div class="e-block #{content if content.present?}"
+  .content
+
+    - if title.present?
+      h2.u-h2 #{title}
+
+    - if text.present?
+      p.u-cita
+        | #{text}
