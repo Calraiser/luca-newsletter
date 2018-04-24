@@ -3,6 +3,7 @@ header_image: "header.png"
 
 ## Product
 product_title: "With P of Product"
+product_subtitle: ""
 product_text: "And the question is, can you start a business without a product?"
 product_link: "https://theconversation.com/if-its-free-online-you-are-the-product-95182"
 
@@ -23,7 +24,7 @@ team_image: "team.svg"
 ux_title: "With U of UX"
 ux_subtitle: "Unbelivably stupid things"
 ux_text: "UX you have work to do"
-ux_link: "https://www.thesun.co.uk/living/4271931/this-collection-of-unbelievably-stupid-things-that-people-have-seen-will-brighten-up-your-day/"
+ux_link: "http://www.adweek.com/creativity/the-handwritings-of-kurt-cobain-david-bowie-and-john-lennon-are-now-downloadable-fonts/"
 
 ## Design
 design_title: "With d of Design"
