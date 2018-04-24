@@ -1,7 +1,5 @@
 ::Sass.load_paths << File.join(root, "node_modules")
 
-require 'borrower'
-
 set :css_dir,     'assets/stylesheets'
 set :fonts_dir,   'assets/fonts'
 set :images_dir,  'assets/images'
@@ -14,12 +12,6 @@ activate :sprockets
 page '/*.xml',  layout: false
 page '/*.json', layout: false
 page '/*.txt',  layout: false
-
-activate :data_source do |c|
-  c.root = 'data'
-  c.files = { "data/data.yaml" => "data" }
-end
-
 
 configure :build do
   activate :minify_css
