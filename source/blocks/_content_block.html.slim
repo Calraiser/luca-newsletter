@@ -58,6 +58,15 @@ div class="e-block #{content if content.present?}"
     - if content.include?('product')
       p.u-cita
        | #{textbig}
+
+      .actions.u-left
+        .action.u-pr-4
+          span.number 03
+          a(href="#" class="button star") Possible
+        .action
+          span.number 14
+          a(href="#" class="button star") Not really
+
       a(href="#{link}" class="link" target="_blank") Read more
 
     - else

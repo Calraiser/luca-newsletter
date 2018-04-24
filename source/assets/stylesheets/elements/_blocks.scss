@@ -26,6 +26,7 @@
     max-width: 220px;
     padding-left: 52px;
     font-family: Telefonicabold;
+    text-shadow: 9px 7px 14px rgba(74, 74, 74, 0.56);
   }
 
   .subtitle {
@@ -179,6 +180,9 @@
         font-family: Telefonicabold;
         font-size: 14px;
         text-transform: uppercase;
+        &.star {
+          background: image-url('star.svg') no-repeat 90%;
+        }
         &.football {
           background: image-url('ball.svg') no-repeat 90%;
         }
