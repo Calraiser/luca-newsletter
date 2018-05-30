@@ -2,7 +2,7 @@ doctype html
 html
   head
     = partial 'layouts/meta_tags'
-    = stylesheet_link_tag 'embed' ,:data => {'embed' => '', 'inline' => ''}
-    = stylesheet_link_tag 'inline' ,:data => {'inline' => ''}
+    = stylesheet_inline_tag 'embed', false
+    = stylesheet_inline_tag 'inline'
   body class="homepage"
     = yield

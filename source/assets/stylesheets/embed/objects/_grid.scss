@@ -6,20 +6,37 @@
    ========================================================================== */
 
 @media (max-width: $breakpoint-mobile) {
-	.o-container {
+
+	.header {
 		width: 100% !important;
+	}
+
+	table, td {
+		table-layout: fixed;
+		min-width: 100% !important;
+		width: 100% !important;
+
+	}
+	.o-container, .o-main-wrapper {
+		width: 100% !important;
+
+		> td {
+			padding: 0 10px 20px !important;
+		}
 
 		td {
 			width: 100% !important;
 			display: block;
 			box-sizing: border-box;
+			padding-left: 5px !important;
+			padding-right: 5px !important;
 		}
 	}
 
 	@for $i from 1 through $grid-columns {
 		.o-column-#{$i} {
-			padding-left: $grid-gutter !important;
-			padding-right: $grid-gutter !important;
+			padding-left: 0 !important;
+			padding-right: 0 !important;
 		}
 	}
 }

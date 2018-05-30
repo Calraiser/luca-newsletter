@@ -10,8 +10,16 @@
 	 * Updating spacing around main wrapper on smaller screens.
 	 */
 
+ html, body {
+	 background: #fff !important;
+ }
+
+	.o-main-wrapper {
+		background: #fff !important;
+	}
+
 	.o-main-wrapper__inner {
-		padding-top: $page-vertical-spacing-mobile !important;
-		padding-bottom: $page-vertical-spacing-mobile !important;
+		padding-top: 0!important;
+		padding-bottom: 0 !important;
 	}
 }

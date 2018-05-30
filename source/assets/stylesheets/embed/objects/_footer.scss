@@ -1,0 +1,22 @@
+
+/* Media queries
+   ========================================================================== */
+
+@media (max-width: $breakpoint-mobile) {
+
+  .o-footer {
+    .content-footer {
+      padding-bottom: 15px;
+      text-align: center;
+      > * {
+        float: none !important;
+      }
+      p {
+        margin-bottom: 0 !important;
+      }
+      a {
+        margin: 5px 0 0 !important;
+      }
+    }
+  }
+}

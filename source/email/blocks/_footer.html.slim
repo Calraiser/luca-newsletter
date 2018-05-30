@@ -1,0 +1,7 @@
+
+- footer ||= false
+
+.o-footer
+  .content-footer
+    p.u-left = data.newsletter.footer_text
+    = mail_to data.newsletter.footer_mail, data.newsletter.footer_mail, :class => "u-right"

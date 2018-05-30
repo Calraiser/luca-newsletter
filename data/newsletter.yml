@@ -1,34 +1,30 @@
 preheader_text: "“Whether you think you can or think you can’t, you’re right.” – Henry Ford"
-header_image: "header.png"
+header_image: "https://gallery.mailchimp.com/046ed628d5662ed6a51279451/images/bf7954fe-8763-4979-bf54-2caeabcb9317.png"
 
 ## Product
-product_title: "With P of Product"
-product_subtitle: ""
-product_text: "And the question is, can you start a business without a product?"
-product_link: "https://theconversation.com/if-its-free-online-you-are-the-product-95182"
+product_link: "http://www.trytriggers.com/"
+product_image: "https://gallery.mailchimp.com/046ed628d5662ed6a51279451/images/380593e3-19f7-4f60-a0bb-ed490eea4032.png"
 
 ## Retrospective
-retro_title: "With R of Retrospective"
-retro_subtitle: ""
-retro_text: "El peor día en la vida de enjunto majamuto"
-retro_link: "http://www.rtve.es/alacarta/videos/como-nos-reimos/como-reimos-enjuto-mojamuto-su-problema-conexion-internet/2719458/"
+retro_link: "http://www.rtve.es/alacarta/videos/muchachada-nui/muchachada-nui-enjuto-mojamuto-peor-dia-su-vida/611672/"
+retro_image: "https://gallery.mailchimp.com/046ed628d5662ed6a51279451/images/e115b3c4-8c10-470e-95cb-1bfbe1690cb4.png"
 
 ## Team
-team_title: "Our team"
-team_subtitle: ""
-team_text: "Smart steps team madrid"
-team_link: ""
-team_image: "team.svg"
+team_link: "http://newsletters.telefonica.com/cdo/1bcbzvb2l16xpgaa7iifho?a=5&p=1269683&t=1667035"
+team_image: "https://gallery.mailchimp.com/046ed628d5662ed6a51279451/images/41921031-5197-4a71-8ae0-d1717a788e4f.png"
 
 ## UX
-ux_title: "With U of UX"
-ux_subtitle: "Unbelivably stupid things"
-ux_text: "UX you have work to do"
-ux_link: "https://www.thesun.co.uk/living/4271931/this-collection-of-unbelievably-stupid-things-that-people-have-seen-will-brighten-up-your-day/"
+ux_link: "http://www.businessinsider.com/the-27-worst-charts-of-all-time-2013-6"
+ux_image: "https://gallery.mailchimp.com/046ed628d5662ed6a51279451/images/4408ab57-e6d7-4b46-9727-0d88a98a8129.png"
 
 ## Design
-design_title: "With d of Design"
-design_subtitle: ""
-design_text: ""
-design_bottom_text: "the David Font"
-design_link: "http://www.adweek.com/creativity/the-handwritings-of-kurt-cobain-david-bowie-and-john-lennon-are-now-downloadable-fonts/"
+design_link: "https://www.netflix.com/es-en/title/80057883"
+design_image: "https://gallery.mailchimp.com/046ed628d5662ed6a51279451/images/b4a4a2ce-0d26-48a0-9966-fcba0542e094.png"
+
+## Prefooter
+prefooter_image: "https://gallery.mailchimp.com/046ed628d5662ed6a51279451/images/d1ca5c6c-d47a-42c0-9493-2e385cbfcad1.png"
+prefooter_link: "https://docs.google.com/forms/d/e/1FAIpQLScOzyDRP0VaQ5FxpwFaQQUtHn8yB87fPTEpURuS5Glul9m2ZQ/viewform"
+
+## Footer
+footer_text: "Send us your ideas, pictures or links"
+footer_mail: "elena.gomezgonzalez@telefonica.com"

@@ -1,0 +1,17 @@
+.o-footer {
+  background: #7FD6D6;
+  overflow: hidden;
+  padding: 0 24px;
+  .content-footer {
+    color: #fff;
+    a {
+      margin-top: 15px;
+      color: #4A4A4A;
+      font-size: 14px;
+      &:hover {
+        border-bottom: 1px solid #4A4A4A;
+      }
+    }
+
+  }
+}
